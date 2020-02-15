@@ -46,7 +46,6 @@ movies['Response'] = ""
 # Calls movie's information from OMDB API
 import requests
 import json
-key = '103e39b2'
 def call_imdb(api_key):
     for i in range(0, len(movies['imdb_id'])):
         movie_id = movies['imdb_id'][i]
@@ -58,6 +57,9 @@ def call_imdb(api_key):
         movies['Language'][i] = req['Language']
         movies['Poster'][i] = req['Poster']
         movies['Response'][i] = req['Response']
+        
+# Insert your OMDB API key here!
+key = '' 
 call_imdb(key)
 
 # Checks if every OMDB request was sucessful
