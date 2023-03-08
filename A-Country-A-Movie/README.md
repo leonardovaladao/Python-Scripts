@@ -13,4 +13,4 @@ By the end, the Python file saves the work done in an HTML page, to be shown in 
 
 ## Visualization
 
-The work can be visualized in [this link](https://leonardovaladao.github.io/PythonDevelopment/A-Country-A-Movie/map.html).
+The work can be visualized in [this link](https://leonardovaladao.github.io/Python-Scripts/A-Country-A-Movie/map.html).
